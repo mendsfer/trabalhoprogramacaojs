@@ -4,7 +4,6 @@
 /* QUANDO o porte = pequeno, DEVE ser retornada a atividade adequada */
 /* QUANDO buscar dado de exemplo, DEVE retornar um valor de forma assíncrona */
 
-
 function geradorDeTagsDeIdentificacao(tag) {
 return tag.toUpperCase()
 }
