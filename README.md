@@ -1,2 +1,1 @@
 # trabalhoprogramacaojs
-# pgats-programacao-js
