@@ -9,6 +9,10 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:mutation": "npx stryker run",
     "start": "lite-server",
-    "e2e": "npx playwright test trabalho/trabalho-final.js"
+    "e2e": "npx playwright test trabalho/trabalho-final.js",
+    "trabalho-final": "node --experimental-vm-modules node_modules/jest/bin/jest.js trabalho/trabalho-final.test.js --passWithNoTests --config jest.config.cjs"
+  },
+  "devDependencies": {
+    "jest": "^30.0.3"
   }
 }
